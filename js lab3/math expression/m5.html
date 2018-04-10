@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sub1 = window.prompt("Enter the name of Subject1");
+        var sub2 = window.prompt("Enter the name of Subject2");
+        var sub3 = window.prompt("Enter the name of Subject3");
+
+        var  totalMarks = x + y + z;
+        var x = 100;
+        var y = 100;
+        var z = 100;
+
+        var num1 = window.prompt("Enter the number of "+sub1);
+        var num2 = window.prompt("Enter the number of "+sub2);
+        var num3 = window.prompt("Enter the number of "+sub3);
+
+        var result = num1 + num2  + num3;
+        
+
+        var percentage = (result/300) * 100;
+
+        var a = num1/x * 100;
+        var b = num1/y * 100;
+        var c = num1/z * 100;
+
+
+        document.write ("<table border=2px> <tr> <th>Subject</th> <th>Total Marks</th> <th>Obtained Marks</th> <th>Percentage</th> </tr> <tr> <td>"+sub1+"</td> <td>"+x+"</td> <td>"+num1+"</td> <td>"+a+"</td></tr> <tr> <td>"+sub2+"</td> <td>"+y+"</td> <td>"+num2+"</td> <td>"+b+"</td> </tr> <tr> <td>"+sub3+"</td> <td>"+z+"</td> <td>"+num3+"</td> <td>"+c+"</td> </tr> <tr> <th>"+totalMarks+"</th> <th>"+result+"</th> <th>"+percentage+"</th> </tr></table>");
+
+
+        
+
+        
+
+
+
+
+
+    </script>
+</body>
+</html>

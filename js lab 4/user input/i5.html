@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+        var totalMarks = 300;
+        var marksObtained = prompt("Enter your marks");
+        
+        var per = (marksObtained/totalMarks)*100;
+        
+        if ( per >= 80) {
+            
+            document.write("<h1>Marks Sheet</h1> <br> <br> Total marks : "+totalMarks+"<br> Marks obtained : "+marksObtained+"<br> Percentage : "+per+"<br> Grade :  A-one <br> Remarks : Excellent" );
+        }
+        
+        else if ( per >= 70) {
+            
+            document.write("<h1>Marks Sheet</h1> <br> <br> Total marks : "+totalMarks+"<br> Marks obtained : "+marksObtained+"<br> Percentage : "+per+"<br> Grade :  A <br> Remarks : Good" );
+        }
+        
+        else if ( per >= 60) {
+            
+            document.write("<h1>Marks Sheet</h1> <br> <br> Total marks : "+totalMarks+"<br> Marks obtained : "+marksObtained+"<br> Percentage : "+per+"<br> Grade :  B <br> Remarks : You need to improve" );
+        }
+        
+        else if ( per < 60) {
+            
+            document.write("<h1>Marks Sheet</h1> <br> <br> Total marks : "+totalMarks+"<br> Marks obtained : "+marksObtained+"<br> Percentage : "+per+"<br> Grade :  Fail <br> Remarks : Sorry" );
+        }
+        
+        else {
+            
+            document.write("Please give right details <br> Thank you");
+        }
+        
+        
+    
+    
+    
+    
+    
+    </script>
+</body>
+</html>

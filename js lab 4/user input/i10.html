@@ -1,0 +1,48 @@
+<html>
+
+    <head>
+    <title>js</title>
+    </head>
+    <body>
+    <script>
+    
+    var n1 = prompt("Enter number 1: ");
+    var n2 = prompt("Enter number 2: ");
+    
+        var num1 = parseInt(n1);
+        var num2 = parseInt(n2);
+        
+    var operator = prompt("Enter the operator you want to perform operation below : \n 1) + \n 2) - \n 3) * \n 4) /");
+        
+    if (operator === "+") {
+        var a = num1 + num2;
+        alert(num1+"+"+num2+" = "+a);
+    }
+        
+    else if (operator === "-") {
+        var b = num1 - num2;
+        alert(num1+"-"+num2+" = "+b);
+    }
+        
+    else if (operator === "*") {
+        var c = num1 * num2;
+        alert(num1+"*"+num2+" = "+c);
+    }
+        
+    else if (operator === "/") {
+        var d = num1 / num2;
+        alert(num1+"/"+num2+" = "+d);
+    }
+        
+    else {
+        alert("wrong input");
+    }
+    
+    
+    
+    
+    
+    
+    </script>
+    </body>
+</html>

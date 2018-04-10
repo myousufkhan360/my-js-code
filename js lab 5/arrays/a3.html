@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     var colorName = ["Red","Green","Blue"];
+
+     var colorAsk = prompt("What color do you want to add in begining?");
+    
+    var colorAsk1 = prompt("What color do you want to add in begining2?");
+    
+     colorName.unshift(colorAsk);
+    colorName.unshift(colorAsk1);
+
+    document.write("Unshift : " +colorName);
+        
+    var colorName2 = ["Red","Green","Blue"];
+
+    var colorAsk2 = prompt("What color do you want to add in the end");
+
+    colorName2.push(colorAsk2);
+        
+    document.write("<br> Push : "+colorName2);
+
+    var colorName3 = ["Red","Green","Blue"]
+
+     colorName3.shift();
+
+    document.write("<br> Shift: "+colorName3);
+
+    var colorName4 = ["Red","Green","Blue"]
+
+    colorName4.pop();
+
+    document.write("<br> Pop: "+colorName4);
+
+    //var colorAsk3 = prompt("What color do you want to add in begining2?");
+
+
+
+
+
+
+        
+    
+    
+    
+    
+    
+    
+    </script>
+</body>
+</html>

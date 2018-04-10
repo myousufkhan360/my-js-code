@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>js</title>
+    </head>
+
+    <body>
+    
+        <script>
+            var time = prompt("Enter time in 24 hours format: ");
+            
+            var t = parseInt(time);
+            if ( t >= 0000 && t < 1200) {
+                alert("Good Morning! ");
+            }
+        
+            else if (t >= 1200 && time < 1700) {
+                alert("Good Afternoon! ");
+                    }
+        
+            else if (t >= 1700 && t <2100) {
+                alert("Good Evening! ");
+            }
+            
+            else if (t >= 2100 && t <= 2359) {
+                    alert("Good Night! ");
+                     }
+            else {
+                alert("Wrong Input !");
+            }
+        
+        
+        
+        
+        </script>
+
+    </body>
+</html>
